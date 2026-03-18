@@ -11,7 +11,7 @@ jobs:
       GH_TOKEN: ${{ secrets.GH_JIRA_TEST_TOKEN }}
     steps:
       - name: checkout jira-linter-test
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           repository: ${{ env.repo }}
           ref: main
