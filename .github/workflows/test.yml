@@ -40,7 +40,7 @@ jobs:
       run: npm run test:cov
 
     - name: codecov
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v6
 
     - uses: ./
       if: github.owner == 'btwrk'
